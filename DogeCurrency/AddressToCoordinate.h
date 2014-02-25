@@ -16,3 +16,15 @@
 
 
 @end
+
+
+@interface NSDictionary (BVJSONString)
+-(NSString*) bv_jsonStringWithPrettyPrint:(BOOL) prettyPrint;
+@end
+
+
+@interface NSArray (BVJSONString)
+- (NSString *)bv_jsonStringWithPrettyPrint:(BOOL)prettyPrint;
+@end
+
+
