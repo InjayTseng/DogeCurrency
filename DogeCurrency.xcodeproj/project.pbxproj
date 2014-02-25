@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F76689F518BCAE9300FA6140 /* AddressToCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = F76689F418BCAE9300FA6140 /* AddressToCoordinate.m */; };
+		F78339FC188FA034001A2AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78339FB188FA034001A2AB7 /* Foundation.framework */; };
+		F78339FE188FA034001A2AB7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78339FD188FA034001A2AB7 /* CoreGraphics.framework */; };
+		F7833A00188FA034001A2AB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78339FF188FA034001A2AB7 /* UIKit.framework */; };
+		F7833A06188FA034001A2AB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7833A04188FA034001A2AB7 /* InfoPlist.strings */; };
+		F7833A08188FA034001A2AB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A07188FA034001A2AB7 /* main.m */; };
+		F7833A0C188FA034001A2AB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A0B188FA034001A2AB7 /* AppDelegate.m */; };
+		F7833A0F188FA034001A2AB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7833A0D188FA034001A2AB7 /* Main.storyboard */; };
+		F7833A12188FA034001A2AB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A11188FA034001A2AB7 /* ViewController.m */; };
+		F7833A14188FA034001A2AB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7833A13188FA034001A2AB7 /* Images.xcassets */; };
+		F7833A1B188FA034001A2AB7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7833A1A188FA034001A2AB7 /* XCTest.framework */; };
+		F7833A1C188FA034001A2AB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78339FB188FA034001A2AB7 /* Foundation.framework */; };
+		F7833A1D188FA034001A2AB7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F78339FF188FA034001A2AB7 /* UIKit.framework */; };
+		F7833A25188FA034001A2AB7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7833A23188FA034001A2AB7 /* InfoPlist.strings */; };
+		F7833A27188FA034001A2AB7 /* DogeCurrencyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A26188FA034001A2AB7 /* DogeCurrencyTests.m */; };
+		F7833A39188FA384001A2AB7 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = F7833A31188FA384001A2AB7 /* LICENSE.txt */; };
+		F7833A3A188FA384001A2AB7 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = F7833A32188FA384001A2AB7 /* README.markdown */; };
+		F7833A3B188FA384001A2AB7 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A34188FA384001A2AB7 /* TFHpple.m */; };
+		F7833A3C188FA384001A2AB7 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A36188FA384001A2AB7 /* TFHppleElement.m */; };
+		F7833A3D188FA384001A2AB7 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A38188FA384001A2AB7 /* XPathQuery.m */; };
+		F7833A3F188FA3DE001A2AB7 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F7833A3E188FA3DE001A2AB7 /* libxml2.dylib */; };
+		F7833A42188FA816001A2AB7 /* AutoCoding+RecursiveParsing.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A41188FA816001A2AB7 /* AutoCoding+RecursiveParsing.m */; };
+		F7833A45188FA834001A2AB7 /* AutoCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = F7833A44188FA834001A2AB7 /* AutoCoding.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F7833A1E188FA034001A2AB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F78339F0188FA034001A2AB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F78339F7188FA034001A2AB7;
+			remoteInfo = DogeCurrency;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F76689F318BCAE9300FA6140 /* AddressToCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressToCoordinate.h; sourceTree = "<group>"; };
+		F76689F418BCAE9300FA6140 /* AddressToCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressToCoordinate.m; sourceTree = "<group>"; };
+		F78339F8188FA034001A2AB7 /* DogeCurrency.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogeCurrency.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F78339FB188FA034001A2AB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F78339FD188FA034001A2AB7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F78339FF188FA034001A2AB7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F7833A03188FA034001A2AB7 /* DogeCurrency-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogeCurrency-Info.plist"; sourceTree = "<group>"; };
+		F7833A05188FA034001A2AB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7833A07188FA034001A2AB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7833A09188FA034001A2AB7 /* DogeCurrency-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DogeCurrency-Prefix.pch"; sourceTree = "<group>"; };
+		F7833A0A188FA034001A2AB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7833A0B188FA034001A2AB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7833A0E188FA034001A2AB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7833A10188FA034001A2AB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7833A11188FA034001A2AB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7833A13188FA034001A2AB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F7833A19188FA034001A2AB7 /* DogeCurrencyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DogeCurrencyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7833A1A188FA034001A2AB7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F7833A22188FA034001A2AB7 /* DogeCurrencyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DogeCurrencyTests-Info.plist"; sourceTree = "<group>"; };
+		F7833A24188FA034001A2AB7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F7833A26188FA034001A2AB7 /* DogeCurrencyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DogeCurrencyTests.m; sourceTree = "<group>"; };
+		F7833A31188FA384001A2AB7 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		F7833A32188FA384001A2AB7 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
+		F7833A33188FA384001A2AB7 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		F7833A34188FA384001A2AB7 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		F7833A35188FA384001A2AB7 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		F7833A36188FA384001A2AB7 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		F7833A37188FA384001A2AB7 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		F7833A38188FA384001A2AB7 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F7833A3E188FA3DE001A2AB7 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F7833A40188FA816001A2AB7 /* AutoCoding+RecursiveParsing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AutoCoding+RecursiveParsing.h"; sourceTree = "<group>"; };
+		F7833A41188FA816001A2AB7 /* AutoCoding+RecursiveParsing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AutoCoding+RecursiveParsing.m"; sourceTree = "<group>"; };
+		F7833A43188FA834001A2AB7 /* AutoCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoCoding.h; sourceTree = "<group>"; };
+		F7833A44188FA834001A2AB7 /* AutoCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoCoding.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F78339F5188FA034001A2AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7833A3F188FA3DE001A2AB7 /* libxml2.dylib in Frameworks */,
+				F78339FE188FA034001A2AB7 /* CoreGraphics.framework in Frameworks */,
+				F7833A00188FA034001A2AB7 /* UIKit.framework in Frameworks */,
+				F78339FC188FA034001A2AB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7833A16188FA034001A2AB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7833A1B188FA034001A2AB7 /* XCTest.framework in Frameworks */,
+				F7833A1D188FA034001A2AB7 /* UIKit.framework in Frameworks */,
+				F7833A1C188FA034001A2AB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F78339EF188FA034001A2AB7 = {
+			isa = PBXGroup;
+			children = (
+				F7833A01188FA034001A2AB7 /* DogeCurrency */,
+				F7833A20188FA034001A2AB7 /* DogeCurrencyTests */,
+				F78339FA188FA034001A2AB7 /* Frameworks */,
+				F78339F9188FA034001A2AB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F78339F9188FA034001A2AB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F78339F8188FA034001A2AB7 /* DogeCurrency.app */,
+				F7833A19188FA034001A2AB7 /* DogeCurrencyTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F78339FA188FA034001A2AB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A3E188FA3DE001A2AB7 /* libxml2.dylib */,
+				F78339FB188FA034001A2AB7 /* Foundation.framework */,
+				F78339FD188FA034001A2AB7 /* CoreGraphics.framework */,
+				F78339FF188FA034001A2AB7 /* UIKit.framework */,
+				F7833A1A188FA034001A2AB7 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7833A01188FA034001A2AB7 /* DogeCurrency */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A43188FA834001A2AB7 /* AutoCoding.h */,
+				F7833A44188FA834001A2AB7 /* AutoCoding.m */,
+				F7833A40188FA816001A2AB7 /* AutoCoding+RecursiveParsing.h */,
+				F7833A41188FA816001A2AB7 /* AutoCoding+RecursiveParsing.m */,
+				F7833A30188FA384001A2AB7 /* hpple */,
+				F7833A0A188FA034001A2AB7 /* AppDelegate.h */,
+				F7833A0B188FA034001A2AB7 /* AppDelegate.m */,
+				F7833A0D188FA034001A2AB7 /* Main.storyboard */,
+				F76689F318BCAE9300FA6140 /* AddressToCoordinate.h */,
+				F76689F418BCAE9300FA6140 /* AddressToCoordinate.m */,
+				F7833A10188FA034001A2AB7 /* ViewController.h */,
+				F7833A11188FA034001A2AB7 /* ViewController.m */,
+				F7833A13188FA034001A2AB7 /* Images.xcassets */,
+				F7833A02188FA034001A2AB7 /* Supporting Files */,
+			);
+			path = DogeCurrency;
+			sourceTree = "<group>";
+		};
+		F7833A02188FA034001A2AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A03188FA034001A2AB7 /* DogeCurrency-Info.plist */,
+				F7833A04188FA034001A2AB7 /* InfoPlist.strings */,
+				F7833A07188FA034001A2AB7 /* main.m */,
+				F7833A09188FA034001A2AB7 /* DogeCurrency-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7833A20188FA034001A2AB7 /* DogeCurrencyTests */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A26188FA034001A2AB7 /* DogeCurrencyTests.m */,
+				F7833A21188FA034001A2AB7 /* Supporting Files */,
+			);
+			path = DogeCurrencyTests;
+			sourceTree = "<group>";
+		};
+		F7833A21188FA034001A2AB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A22188FA034001A2AB7 /* DogeCurrencyTests-Info.plist */,
+				F7833A23188FA034001A2AB7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7833A30188FA384001A2AB7 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				F7833A31188FA384001A2AB7 /* LICENSE.txt */,
+				F7833A32188FA384001A2AB7 /* README.markdown */,
+				F7833A33188FA384001A2AB7 /* TFHpple.h */,
+				F7833A34188FA384001A2AB7 /* TFHpple.m */,
+				F7833A35188FA384001A2AB7 /* TFHppleElement.h */,
+				F7833A36188FA384001A2AB7 /* TFHppleElement.m */,
+				F7833A37188FA384001A2AB7 /* XPathQuery.h */,
+				F7833A38188FA384001A2AB7 /* XPathQuery.m */,
+			);
+			path = hpple;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F78339F7188FA034001A2AB7 /* DogeCurrency */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7833A2A188FA034001A2AB7 /* Build configuration list for PBXNativeTarget "DogeCurrency" */;
+			buildPhases = (
+				F78339F4188FA034001A2AB7 /* Sources */,
+				F78339F5188FA034001A2AB7 /* Frameworks */,
+				F78339F6188FA034001A2AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogeCurrency;
+			productName = DogeCurrency;
+			productReference = F78339F8188FA034001A2AB7 /* DogeCurrency.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F7833A18188FA034001A2AB7 /* DogeCurrencyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7833A2D188FA034001A2AB7 /* Build configuration list for PBXNativeTarget "DogeCurrencyTests" */;
+			buildPhases = (
+				F7833A15188FA034001A2AB7 /* Sources */,
+				F7833A16188FA034001A2AB7 /* Frameworks */,
+				F7833A17188FA034001A2AB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F7833A1F188FA034001A2AB7 /* PBXTargetDependency */,
+			);
+			name = DogeCurrencyTests;
+			productName = DogeCurrencyTests;
+			productReference = F7833A19188FA034001A2AB7 /* DogeCurrencyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F78339F0188FA034001A2AB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "David Tseng";
+				TargetAttributes = {
+					F7833A18188FA034001A2AB7 = {
+						TestTargetID = F78339F7188FA034001A2AB7;
+					};
+				};
+			};
+			buildConfigurationList = F78339F3188FA034001A2AB7 /* Build configuration list for PBXProject "DogeCurrency" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F78339EF188FA034001A2AB7;
+			productRefGroup = F78339F9188FA034001A2AB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F78339F7188FA034001A2AB7 /* DogeCurrency */,
+				F7833A18188FA034001A2AB7 /* DogeCurrencyTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F78339F6188FA034001A2AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7833A39188FA384001A2AB7 /* LICENSE.txt in Resources */,
+				F7833A3A188FA384001A2AB7 /* README.markdown in Resources */,
+				F7833A14188FA034001A2AB7 /* Images.xcassets in Resources */,
+				F7833A06188FA034001A2AB7 /* InfoPlist.strings in Resources */,
+				F7833A0F188FA034001A2AB7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7833A17188FA034001A2AB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7833A25188FA034001A2AB7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F78339F4188FA034001A2AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76689F518BCAE9300FA6140 /* AddressToCoordinate.m in Sources */,
+				F7833A12188FA034001A2AB7 /* ViewController.m in Sources */,
+				F7833A0C188FA034001A2AB7 /* AppDelegate.m in Sources */,
+				F7833A08188FA034001A2AB7 /* main.m in Sources */,
+				F7833A42188FA816001A2AB7 /* AutoCoding+RecursiveParsing.m in Sources */,
+				F7833A45188FA834001A2AB7 /* AutoCoding.m in Sources */,
+				F7833A3B188FA384001A2AB7 /* TFHpple.m in Sources */,
+				F7833A3D188FA384001A2AB7 /* XPathQuery.m in Sources */,
+				F7833A3C188FA384001A2AB7 /* TFHppleElement.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7833A15188FA034001A2AB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7833A27188FA034001A2AB7 /* DogeCurrencyTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F7833A1F188FA034001A2AB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F78339F7188FA034001A2AB7 /* DogeCurrency */;
+			targetProxy = F7833A1E188FA034001A2AB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7833A04188FA034001A2AB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7833A05188FA034001A2AB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F7833A0D188FA034001A2AB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7833A0E188FA034001A2AB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7833A23188FA034001A2AB7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7833A24188FA034001A2AB7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7833A28188FA034001A2AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7833A29188FA034001A2AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7833A2B188FA034001A2AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogeCurrency/DogeCurrency-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "DogeCurrency/DogeCurrency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F7833A2C188FA034001A2AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogeCurrency/DogeCurrency-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SDKROOT)/usr/include/libxml2",
+				);
+				INFOPLIST_FILE = "DogeCurrency/DogeCurrency-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F7833A2E188FA034001A2AB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogeCurrency.app/DogeCurrency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogeCurrency/DogeCurrency-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "DogeCurrencyTests/DogeCurrencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F7833A2F188FA034001A2AB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DogeCurrency.app/DogeCurrency";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DogeCurrency/DogeCurrency-Prefix.pch";
+				INFOPLIST_FILE = "DogeCurrencyTests/DogeCurrencyTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F78339F3188FA034001A2AB7 /* Build configuration list for PBXProject "DogeCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7833A28188FA034001A2AB7 /* Debug */,
+				F7833A29188FA034001A2AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7833A2A188FA034001A2AB7 /* Build configuration list for PBXNativeTarget "DogeCurrency" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7833A2B188FA034001A2AB7 /* Debug */,
+				F7833A2C188FA034001A2AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7833A2D188FA034001A2AB7 /* Build configuration list for PBXNativeTarget "DogeCurrencyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7833A2E188FA034001A2AB7 /* Debug */,
+				F7833A2F188FA034001A2AB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F78339F0188FA034001A2AB7 /* Project object */;
+}
